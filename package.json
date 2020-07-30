@@ -1,0 +1,33 @@
+{
+	"name": "cy-visual-tests",
+	"version": "1.0.0",
+	"description": "Visual regression testing with cypress",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/wjn/cy-visual-tests.git"
+	},
+	"keywords": [
+		"cypress",
+		"visual",
+		"testing",
+		"snapshots"
+	],
+	"author": "Will Nielsen",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/wjn/cy-visual-tests/issues"
+	},
+	"homepage": "https://github.com/wjn/cy-visual-tests#readme",
+	"dependencies": {
+		"cypress": "^4.11.0",
+		"cypress-image-snapshot": "^3.1.1"
+	},
+	"devDependencies": {
+		"prettier": "^2.0.5"
+	}
+}
