@@ -1,4 +1,4 @@
-import { addMatchImageSnapshotCommand } from "cypress-image-snapshot/plugin"
+import { addMatchImageSnapshotCommand } from "cypress-image-snapshot/command"
 
 addMatchImageSnapshotCommand({
 	failureThreshold: 0.0,
