@@ -1,3 +1,8 @@
+# Cypress
+/cypress/snapshots/**/*.*
+/cypress/screenshots/**/*.*
+/cypress/videos/**/*.*
+
 # Logs
 logs
 *.log
