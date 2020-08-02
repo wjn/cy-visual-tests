@@ -17,6 +17,9 @@ describe("visual regression", () => {
 describe("single element snapshot", () => {
 	it("should match single element on page", () => {
 		cy.visit("http://example.com")
-		cy.get("h1").matchImageSnapshot()
+		cy.get("h1").matchImageSnapshot({
+			failureThreshold: 10.0,
+			failureThresholdType: "pixel",
+		})
 	})
 })
